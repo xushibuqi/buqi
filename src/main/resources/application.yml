@@ -1,0 +1,6 @@
+datasource:
+  db:
+    username: root
+    password: ufmXD2a%E&
+    url: jdbc:mysql://192.168.10.251:3306/authorizedb
+    driver: com.mysql.cj.jdbc.Driver
