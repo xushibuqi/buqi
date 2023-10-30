@@ -17,8 +17,9 @@ public class TestController {
 
 
     @GetMapping("/test")
-    public void test() {
-        reptile.crawlAndSaveText();
+    public Object test() {
+
+       return reptile.getCatalogueByPT();
     }
 
 }
